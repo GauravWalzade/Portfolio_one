@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem !important;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+Button {
+    color: #fff !important;
+    font-size: 18px !important;
+}
+
+.nav-link {
+    color: #000 !important;
+}
+
+.nav-link-navbar {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: blue !important;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.list-group-item {
+    background-color: transparent !important;
+    color: #000 !important;
+    border: none !important;
+}
+
+.list-group-item a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.home_back {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.form-control:focus {
+    border: none !important;
+}
+
+.glow {
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 40vh;
+    animation: glow 1s ease-in-out infinite alternate !important;
+}
+
+.section_image {
+    height: 30rem;
+    width: 25rem;
+}
+
+.progress_list {
+    background-color: transparent;
+    color: #fff;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.btn-success {
+    width: "1rem"
+}
+
+footer {
+    background-color: #fbc093;
+}
+
+.accordion-button {
+    color: #000 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #524eb7;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #524eb7;
+}
+
+@media only screen and (max-width:768px) {
+    .logo{
+        margin-right: 40vw;
+    }
+}
